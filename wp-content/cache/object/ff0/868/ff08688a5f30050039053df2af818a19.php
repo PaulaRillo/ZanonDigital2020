@@ -1,0 +1,1 @@
+Êd`<?php exit; ?>a:1:{s:7:"content";a:6:{s:17:"_wp_page_template";a:1:{i:0;s:7:"default";}s:7:"_fusion";a:1:{i:0;s:6:"a:0:{}";}s:10:"_edit_last";a:1:{i:0;s:1:"1";}s:14:"slide_template";a:1:{i:0;s:0:"";}s:16:"rs_page_bg_color";a:1:{i:0;s:0:"";}s:10:"_edit_lock";a:1:{i:0;s:12:"1617213116:1";}}}

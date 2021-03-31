@@ -1,0 +1,32 @@
+4181.370 (7) Opened log file at time: Wed, 31 Mar 2021 18:41:38 +0000 on http://localhost/zanondigital2020/ZanonDigital2020
+4181.384 (7) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.50 WP: 5.5.3 PHP: 7.3.21 (apache2handler, Windows NT DESKTOP-ME9FG3P 10.0 build 19041 (Windows 10) AMD64) MySQL: 5.7.31 WPLANG: pt_BR Server: Apache/2.4.46 (Win64) PHP/7.3.21 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 15.8M | 18M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+4181.399 (7) Free space on disk containing Updraft's temporary directory: 64124.7 MB
+4181.416 (7) Requesting backup semaphore lock (b051f30a52f6)
+4181.434 (7) [Lock (updraft_lock_b051f30a52f6, wp_options) acquired] info
+4181.459 (7) Backup run: resumption=7, nonce=b051f30a52f6, file_nonce=b051f30a52f6 begun at=1617211917 (4181s ago), job type=backup
+4181.475 (7) Long time past since expected resumption time: approx expected=1617213935.6, now=1617216098.4, diff=2162.7
+4181.500 (7) [Warning] Seu website é visitado com frequência e UpdraftPlus não esta recebendo os recursos que esperava; por favor, leia esta página: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+4181.520 (7) Scheduling a resumption (8) after 300 seconds (1617216398) in case this run gets aborted
+4181.561 (7) Checking if we have a zip executable available
+4181.570 (7) Creation of backups of directories: already finished
+4181.580 (7) Saving backup status to database (elements: 8)
+4181.602 (7) Database dump (WordPress DB): Creation was completed already
+4181.612 (7) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER
+4181.636 (7) backup_2021-03-31-1431_Zanon_Digital_b051f30a52f6-plugins.zip: plugins: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem; now marking as uploaded (C:\wamp64\www\zanondigital2020\ZanonDigital2020/wp-content/updraft/backup_2021-03-31-1431_Zanon_Digital_b051f30a52f6-plugins.zip)
+4181.646 (7) Recording as successfully uploaded: backup_2021-03-31-1431_Zanon_Digital_b051f30a52f6-plugins.zip
+4181.664 (7) backup_2021-03-31-1431_Zanon_Digital_b051f30a52f6-themes.zip: themes: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem; now marking as uploaded (C:\wamp64\www\zanondigital2020\ZanonDigital2020/wp-content/updraft/backup_2021-03-31-1431_Zanon_Digital_b051f30a52f6-themes.zip)
+4181.673 (7) Recording as successfully uploaded: backup_2021-03-31-1431_Zanon_Digital_b051f30a52f6-themes.zip
+4181.692 (7) backup_2021-03-31-1431_Zanon_Digital_b051f30a52f6-uploads.zip: uploads: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem; now marking as uploaded (C:\wamp64\www\zanondigital2020\ZanonDigital2020/wp-content/updraft/backup_2021-03-31-1431_Zanon_Digital_b051f30a52f6-uploads.zip)
+4181.701 (7) Recording as successfully uploaded: backup_2021-03-31-1431_Zanon_Digital_b051f30a52f6-uploads.zip
+4181.718 (7) backup_2021-03-31-1431_Zanon_Digital_b051f30a52f6-others.zip: others: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem; now marking as uploaded (C:\wamp64\www\zanondigital2020\ZanonDigital2020/wp-content/updraft/backup_2021-03-31-1431_Zanon_Digital_b051f30a52f6-others.zip)
+4181.734 (7) Recording as successfully uploaded: backup_2021-03-31-1431_Zanon_Digital_b051f30a52f6-others.zip
+4181.756 (7) backup_2021-03-31-1431_Zanon_Digital_b051f30a52f6-db.gz: db: This file is not ours to upload and has been/will be handled by another job.
+4181.762 (7) Saving backup history. Total backup size: Unknown
+4181.799 (7) Resume backup (b051f30a52f6, 7): finish run
+4181.825 (7) There were no more files that needed uploading
+4181.842 (7) PHP event: code E_NOTICE: Undefined index: ftp (line 3964, C:\wamp64\www\zanondigital2020\ZanonDigital2020\wp-content\plugins\updraftplus\class-updraftplus.php)
+4182.056 (7) [Lock option (updraft_lock_b051f30a52f6, wp_options) released] info
+4182.083 (7) There were no errors in the uploads, so the 'resume' event (8) is being unscheduled
+4182.129 (7) The backup apparently succeeded (with warnings) and is now complete
+4182.145 (7) No email will be sent - this backup set was empty.
+4182.159 (7) O backup aparentemente foi bem sucedido (com avisos) e agora está completo

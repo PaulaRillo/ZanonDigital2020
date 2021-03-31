@@ -1,0 +1,934 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-0 START @ 06:36:00
+* VERSION: 3.8.8
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ ORIGINAL SERVER                        |CURRENT SERVER
+OS__________________: Linux                                 |WINNT
+PHP VERSION_________: 7.3.0                                 |7.3.21
+********************************************************************************
+CURRENT SERVER INFO
+PHP_________________: 7.3.21 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.4.46 (Win64) PHP/7.3.21
+DOC ROOT____________: "C:/wamp64/www/zanondigital2020/ZanonDigital2020"
+LOG FILE 644________: false
+REQUEST URL_________: "http://localhost/zanondigital2020/ZanonDigital2020/dup-installer/main.installer.php"
+********************************************************************************
+INSTALLER INFO
+PATH_NEW____________: "C:/wamp64/www/zanondigital2020/ZanonDigital2020"
+URL_NEW_____________: "http://localhost/zanondigital2020/ZanonDigital2020"
+********************************************************************************
+
+--------------------------------------
+ARCHIVE INFO
+--------------------------------------
+ARCHIVE NAME________: "C:/wamp64/www/zanondigital2020/ZanonDigital2020/20210331_zanondigital_60fbf146a32ef92b8562_20210331180048_archive.zip"
+ARCHIVE SIZE________: 87.2MB
+CREATED_____________: 2021-03-31 18:00:48
+WP VERSION__________: 5.5.3
+DUP VERSION_________: 3.8.8
+DB VERSION__________: 10.2.24
+DB FILE SIZE________: 16.83MB
+DB TABLES___________: 32
+DB ROWS_____________: 934
+ORIGINAL URL________: https://zanondigital.com.br
+PATH HOME___________: /home/zanondigital/www
+PATH ABS____________: /home/zanondigital/www
+PATH WPCONFIG_______: /home/zanondigital/www
+PATH WPCONTENT______: /home/zanondigital/www/wp-content
+PATH UPLOADS________: /home/zanondigital/www/wp-content/uploads
+PATH PLUGINS________: /home/zanondigital/www/wp-content/plugins
+PATH MUPLUGINS______: /home/zanondigital/www/wp-content/mu-plugins
+PATH THEMES_________: /home/zanondigital/www/wp-content/themes
+***  PLUGINS ***
+PLUGIN [SLUG:fusion-builder/fusion-builder.php                 ][ON:true ] Avada Builder
+PLUGIN [SLUG:fusion-core/fusion-core.php                       ][ON:true ] Avada Core
+PLUGIN [SLUG:fusion-white-label-branding/fusion-white-label-branding.php][ON:true ] Avada Custom Branding
+PLUGIN [SLUG:contact-form-7/wp-contact-form-7.php              ][ON:true ] Contact Form 7
+PLUGIN [SLUG:contact-form-cfdb7/contact-form-cfdb-7.php        ][ON:true ] Contact Form CFDB7
+PLUGIN [SLUG:duplicate-page/duplicatepage.php                  ][ON:true ] Duplicate Page
+PLUGIN [SLUG:duplicator-pro/duplicator-pro.php                 ][ON:true ] Duplicator Pro
+PLUGIN [SLUG:gtmetrix-for-wordpress/gtmetrix-for-wordpress.php ][ON:true ] GTmetrix for WordPress
+PLUGIN [SLUG:limit-login-attempts-reloaded/limit-login-attempts-reloaded.php][ON:true ] Limit Login Attempts Reloaded
+PLUGIN [SLUG:mascaras-para-cf7/cf7-mascaras.php                ][ON:true ] Masks for CF7
+PLUGIN [SLUG:really-simple-ssl/rlrsssl-really-simple-ssl.php   ][ON:true ] Really Simple SSL
+PLUGIN [SLUG:wpcf7-redirect/wpcf7-redirect.php                 ][ON:true ] Redirection for Contact Form 7
+PLUGIN [SLUG:google-site-kit/google-site-kit.php               ][ON:true ] Site Kit by Google
+PLUGIN [SLUG:revslider/revslider.php                           ][ON:true ] Slider Revolution
+PLUGIN [SLUG:wp-smush-pro/wp-smush.php                         ][ON:true ] Smush Pro
+PLUGIN [SLUG:updraftplus/updraftplus.php                       ][ON:true ] UpdraftPlus - Backup/Restore
+PLUGIN [SLUG:w3-total-cache/w3-total-cache.php                 ][ON:true ] W3 Total Cache
+PLUGIN [SLUG:advanced-cache.php                                ][ON:false] advanced-cache.php
+PLUGIN [SLUG:db.php                                            ][ON:false] db.php
+PLUGIN [SLUG:object-cache.php                                  ][ON:false] object-cache.php
+--------------------------------------
+--------------------------------------
+
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 06:36:00
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+HOME URL OLD________: "https://zanondigital.com.br"
+HOME URL NEW________: "http://localhost/zanondigital2020/ZanonDigital2020"
+SITE URL OLD________: "https://zanondigital.com.br"
+SITE URL NEW________: "http://localhost/zanondigital2020/ZanonDigital2020"
+CONTENT URL OLD_____: "https://zanondigital.com.br/wp-content"
+CONTENT URL NEW_____: "http://localhost/zanondigital2020/ZanonDigital2020/wp-content"
+UPLOAD URL OLD______: "https://zanondigital.com.br/wp-content/uploads"
+UPLOAD URL NEW______: "http://localhost/zanondigital2020/ZanonDigital2020/wp-content/uploads"
+PLUGINS URL OLD_____: "https://zanondigital.com.br/wp-content/plugins"
+PLUGINS URL NEW_____: "http://localhost/zanondigital2020/ZanonDigital2020/wp-content/plugins"
+MUPLUGINS URL OLD___: "https://zanondigital.com.br/wp-content/mu-plugins"
+MUPLUGINS URL NEW___: "http://localhost/zanondigital2020/ZanonDigital2020/wp-content/mu-plugins"
+HOME PATH OLD_______: "/home/zanondigital/www"
+HOME PATH NEW_______: "C:/wamp64/www/zanondigital2020/ZanonDigital2020"
+SITE PATH OLD_______: "/home/zanondigital/www"
+SITE PATH NEW_______: "C:/wamp64/www/zanondigital2020/ZanonDigital2020"
+CONTENT PATH OLD____: "/home/zanondigital/www/wp-content"
+CONTENT PATH NEW____: "C:/wamp64/www/zanondigital2020/ZanonDigital2020/wp-content"
+UPLOAD PATH OLD_____: "/home/zanondigital/www/wp-content/uploads"
+UPLOAD PATH NEW_____: "C:/wamp64/www/zanondigital2020/ZanonDigital2020/wp-content/uploads"
+PLUGINS PATH OLD____: "/home/zanondigital/www/wp-content/plugins"
+PLUGINS PATH NEW____: "C:/wamp64/www/zanondigital2020/ZanonDigital2020/wp-content/plugins"
+MUPLUGINS PATH OLD__: "/home/zanondigital/www/wp-content/mu-plugins"
+MUPLUGINS PATH NEW__: "C:/wamp64/www/zanondigital2020/ZanonDigital2020/wp-content/mu-plugins"
+ARCHIVE ENGINE______: "ziparchivechunking"
+CLIENT KICKOFF______: true
+SET DIR PERMS_______: false
+DIR PERMS VALUE_____: 755
+SET FILE PERMS______: false
+FILE PERMS VALUE____: 644
+SAFE MODE___________: 0
+LOGGING_____________: 1
+WP CONFIG___________: "modify"
+HTACCESS CONFIG_____: "new"
+OTHER CONFIG________: "new"
+FILE TIME___________: "current"
+REMOVE RENDUNDANT___: false
+********************************************************************************
+
+--------------------------------------
+
+PATHS MAPPING_______: "C:/wamp64/www/zanondigital2020/ZanonDigital2020"
+--------------------------------------
+
+
+EXTRACTION: ZIP CHUNKING >>> START
+LOG-TIME[C:\wamp64\www\zanondigital2020\ZanonDigital2020\dup-installer\ctrls\ctrl.base.php:224][DELTA:   0.32908]  MESSAGE:END RENDER PAGE
+
+-------------------------
+AJAX ACTION validate
+
+-------------------------
+AJAX ACTION sparam_s1
+
+-------------------------
+AJAX ACTION validate
+
+-------------------------
+AJAX ACTION extract
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 06:36:09
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+HOME URL OLD________: "https://zanondigital.com.br"
+HOME URL NEW________: "http://localhost/zanondigital2020/ZanonDigital2020"
+SITE URL OLD________: "https://zanondigital.com.br"
+SITE URL NEW________: "http://localhost/zanondigital2020/ZanonDigital2020"
+CONTENT URL OLD_____: "https://zanondigital.com.br/wp-content"
+CONTENT URL NEW_____: "http://localhost/zanondigital2020/ZanonDigital2020/wp-content"
+UPLOAD URL OLD______: "https://zanondigital.com.br/wp-content/uploads"
+UPLOAD URL NEW______: "http://localhost/zanondigital2020/ZanonDigital2020/wp-content/uploads"
+PLUGINS URL OLD_____: "https://zanondigital.com.br/wp-content/plugins"
+PLUGINS URL NEW_____: "http://localhost/zanondigital2020/ZanonDigital2020/wp-content/plugins"
+MUPLUGINS URL OLD___: "https://zanondigital.com.br/wp-content/mu-plugins"
+MUPLUGINS URL NEW___: "http://localhost/zanondigital2020/ZanonDigital2020/wp-content/mu-plugins"
+HOME PATH OLD_______: "/home/zanondigital/www"
+HOME PATH NEW_______: "C:/wamp64/www/zanondigital2020/ZanonDigital2020"
+SITE PATH OLD_______: "/home/zanondigital/www"
+SITE PATH NEW_______: "C:/wamp64/www/zanondigital2020/ZanonDigital2020"
+CONTENT PATH OLD____: "/home/zanondigital/www/wp-content"
+CONTENT PATH NEW____: "C:/wamp64/www/zanondigital2020/ZanonDigital2020/wp-content"
+UPLOAD PATH OLD_____: "/home/zanondigital/www/wp-content/uploads"
+UPLOAD PATH NEW_____: "C:/wamp64/www/zanondigital2020/ZanonDigital2020/wp-content/uploads"
+PLUGINS PATH OLD____: "/home/zanondigital/www/wp-content/plugins"
+PLUGINS PATH NEW____: "C:/wamp64/www/zanondigital2020/ZanonDigital2020/wp-content/plugins"
+MUPLUGINS PATH OLD__: "/home/zanondigital/www/wp-content/mu-plugins"
+MUPLUGINS PATH NEW__: "C:/wamp64/www/zanondigital2020/ZanonDigital2020/wp-content/mu-plugins"
+ARCHIVE ENGINE______: "ziparchivechunking"
+CLIENT KICKOFF______: false
+SET DIR PERMS_______: false
+DIR PERMS VALUE_____: 755
+SET FILE PERMS______: false
+FILE PERMS VALUE____: 644
+SAFE MODE___________: 0
+LOGGING_____________: 1
+WP CONFIG___________: "modify"
+HTACCESS CONFIG_____: "new"
+OTHER CONFIG________: "new"
+FILE TIME___________: "current"
+REMOVE RENDUNDANT___: false
+********************************************************************************
+
+--------------------------------------
+
+PATHS MAPPING_______: "C:/wamp64/www/zanondigital2020/ZanonDigital2020"
+--------------------------------------
+
+
+EXTRACTION: ZIP CHUNKING >>> START
+ARCHIVE OFFSET 0
+CHUNK COMPLETE - RUNTIME: 5.0105 sec. - Files processed: 2041 of 15157
+
+-------------------------
+AJAX ACTION extract
+ARCHIVE OFFSET 2041
+CHUNK COMPLETE - RUNTIME: 5.0124 sec. - Files processed: 2375 of 15157
+
+-------------------------
+AJAX ACTION extract
+ARCHIVE OFFSET 2375
+CHUNK COMPLETE - RUNTIME: 5.1608 sec. - Files processed: 2630 of 15157
+
+-------------------------
+AJAX ACTION extract
+ARCHIVE OFFSET 2630
+CHUNK COMPLETE - RUNTIME: 5.0269 sec. - Files processed: 2969 of 15157
+
+-------------------------
+AJAX ACTION extract
+ARCHIVE OFFSET 2969
+CHUNK COMPLETE - RUNTIME: 5.0676 sec. - Files processed: 3296 of 15157
+
+-------------------------
+AJAX ACTION extract
+ARCHIVE OFFSET 3296
+CHUNK COMPLETE - RUNTIME: 5.1498 sec. - Files processed: 3419 of 15157
+
+-------------------------
+AJAX ACTION extract
+ARCHIVE OFFSET 3419
+CHUNK COMPLETE - RUNTIME: 5.0136 sec. - Files processed: 3480 of 15157
+
+-------------------------
+AJAX ACTION extract
+ARCHIVE OFFSET 3480
+CHUNK COMPLETE - RUNTIME: 5.0132 sec. - Files processed: 3881 of 15157
+
+-------------------------
+AJAX ACTION extract
+ARCHIVE OFFSET 3881
+CHUNK COMPLETE - RUNTIME: 5.0107 sec. - Files processed: 4462 of 15157
+
+-------------------------
+AJAX ACTION extract
+ARCHIVE OFFSET 4462
+CHUNK COMPLETE - RUNTIME: 5.0959 sec. - Files processed: 4909 of 15157
+
+-------------------------
+AJAX ACTION extract
+ARCHIVE OFFSET 4909
+CHUNK COMPLETE - RUNTIME: 5.0343 sec. - Files processed: 5340 of 15157
+
+-------------------------
+AJAX ACTION extract
+ARCHIVE OFFSET 5340
+CHUNK COMPLETE - RUNTIME: 5.3226 sec. - Files processed: 5711 of 15157
+
+-------------------------
+AJAX ACTION extract
+ARCHIVE OFFSET 5711
+CHUNK COMPLETE - RUNTIME: 5.0102 sec. - Files processed: 5997 of 15157
+
+-------------------------
+AJAX ACTION extract
+ARCHIVE OFFSET 5997
+CHUNK COMPLETE - RUNTIME: 5.0166 sec. - Files processed: 6488 of 15157
+
+-------------------------
+AJAX ACTION extract
+ARCHIVE OFFSET 6488
+CHUNK COMPLETE - RUNTIME: 5.0302 sec. - Files processed: 6584 of 15157
+
+-------------------------
+AJAX ACTION extract
+ARCHIVE OFFSET 6584
+CHUNK COMPLETE - RUNTIME: 5.0128 sec. - Files processed: 6946 of 15157
+
+-------------------------
+AJAX ACTION extract
+ARCHIVE OFFSET 6946
+CHUNK COMPLETE - RUNTIME: 5.0117 sec. - Files processed: 7152 of 15157
+
+-------------------------
+AJAX ACTION extract
+ARCHIVE OFFSET 7152
+CHUNK COMPLETE - RUNTIME: 5.0148 sec. - Files processed: 7620 of 15157
+
+-------------------------
+AJAX ACTION extract
+ARCHIVE OFFSET 7620
+CHUNK COMPLETE - RUNTIME: 5.0158 sec. - Files processed: 8624 of 15157
+
+-------------------------
+AJAX ACTION extract
+ARCHIVE OFFSET 8624
+CHUNK COMPLETE - RUNTIME: 5.0504 sec. - Files processed: 8946 of 15157
+
+-------------------------
+AJAX ACTION extract
+ARCHIVE OFFSET 8946
+CHUNK COMPLETE - RUNTIME: 5.1564 sec. - Files processed: 9318 of 15157
+
+-------------------------
+AJAX ACTION extract
+ARCHIVE OFFSET 9318
+CHUNK COMPLETE - RUNTIME: 5.0142 sec. - Files processed: 9817 of 15157
+
+-------------------------
+AJAX ACTION extract
+ARCHIVE OFFSET 9817
+CHUNK COMPLETE - RUNTIME: 5.0188 sec. - Files processed: 10277 of 15157
+
+-------------------------
+AJAX ACTION extract
+ARCHIVE OFFSET 10277
+CHUNK COMPLETE - RUNTIME: 5.0109 sec. - Files processed: 10695 of 15157
+
+-------------------------
+AJAX ACTION extract
+ARCHIVE OFFSET 10695
+CHUNK COMPLETE - RUNTIME: 5.0207 sec. - Files processed: 11027 of 15157
+
+-------------------------
+AJAX ACTION extract
+ARCHIVE OFFSET 11027
+CHUNK COMPLETE - RUNTIME: 5.0995 sec. - Files processed: 11197 of 15157
+
+-------------------------
+AJAX ACTION extract
+ARCHIVE OFFSET 11197
+CHUNK COMPLETE - RUNTIME: 5.0266 sec. - Files processed: 11517 of 15157
+
+-------------------------
+AJAX ACTION extract
+ARCHIVE OFFSET 11517
+CHUNK COMPLETE - RUNTIME: 5.2646 sec. - Files processed: 11904 of 15157
+
+-------------------------
+AJAX ACTION extract
+ARCHIVE OFFSET 11904
+CHUNK COMPLETE - RUNTIME: 5.0142 sec. - Files processed: 12295 of 15157
+
+-------------------------
+AJAX ACTION extract
+ARCHIVE OFFSET 12295
+CHUNK COMPLETE - RUNTIME: 5.0129 sec. - Files processed: 12689 of 15157
+
+-------------------------
+AJAX ACTION extract
+ARCHIVE OFFSET 12689
+CHUNK COMPLETE - RUNTIME: 5.0475 sec. - Files processed: 13073 of 15157
+
+-------------------------
+AJAX ACTION extract
+ARCHIVE OFFSET 13073
+CHUNK COMPLETE - RUNTIME: 5.0240 sec. - Files processed: 13342 of 15157
+
+-------------------------
+AJAX ACTION extract
+ARCHIVE OFFSET 13342
+CHUNK COMPLETE - RUNTIME: 5.0114 sec. - Files processed: 13726 of 15157
+
+-------------------------
+AJAX ACTION extract
+ARCHIVE OFFSET 13726
+CHUNK COMPLETE - RUNTIME: 5.0194 sec. - Files processed: 14111 of 15157
+
+-------------------------
+AJAX ACTION extract
+ARCHIVE OFFSET 14111
+CHUNK COMPLETE - RUNTIME: 5.0374 sec. - Files processed: 14497 of 15157
+
+-------------------------
+AJAX ACTION extract
+ARCHIVE OFFSET 14497
+Archive just got done processing last file in list of 15387
+
+EXTRACTION: ZIP CHUNKING >>> DONE
+
+WEB SERVER CONFIGURATION FILE STATUS:
+- .htaccess file was not reset or backed up.
+- .user.ini file was not reset or backed up.
+- web.config file was not reset or backed up.
+
+EXTRACTION COMPLETE @ 06:39:15 - RUNTIME: 185.4955 sec. - Files processed: 15157 of 15157
+LOG-TIME[C:\wamp64\www\zanondigital2020\ZanonDigital2020\dup-installer\ctrls\ctrl.base.php:224][DELTA:   0.12200]  MESSAGE:END RENDER PAGE
+
+-------------------------
+AJAX ACTION sparam_s2
+
+-------------------------
+AJAX ACTION dbtest
+
+-------------------------
+AJAX ACTION sparam_s2
+
+-------------------------
+AJAX ACTION dbtest
+
+-------------------------
+AJAX ACTION sparam_s2
+
+-------------------------
+AJAX ACTION dbtest
+
+-------------------------
+AJAX ACTION dbinstall
+
+
+
+********************************************************************************
+* DUPLICATOR PRO INSTALL-LOG
+* STEP-2 START @ 06:40:42
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+TABLE PREFIX________: "wp_"
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+NON-BREAKING SPACES_: false
+CHARSET_____________: "utf8"
+CHARSET FB__________: false
+CHARSET FB VAL______: "big5"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+COLLATE FB VAL______: "big5_chinese_ci"
+CUNKING_____________: true
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.7.31 -- Build Server: 10.2.24
+FILE SIZE:	dup-database__60fbf14-31180048.sql (14.05MB)
+TIMEOUT:	5000
+MAXPACK:	1048576
+SQLMODE-GLOBAL:	STRICT_ALL_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER
+SQLMODE-SESSION:NO_AUTO_VALUE_ON_ZERO
+COLLATE FB:	Off
+DB CHUNKING:	enabled
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+
+NOTICE: This servers version [5.7.31] is less than the build version [10.2.24].  
+If you find issues after testing your site please referr to this FAQ item.
+https://snapcreek.com/duplicator/docs/faqs-tech/#faq-installer-260-q
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 0
+Auto Commit set to false successfully
+[PHP ERR][NOTICE] MSG:Undefined variable: counter [CODE:8|FILE:C:\wamp64\www\zanondigital2020\ZanonDigital2020\dup-installer\ctrls\classes\class.ctrl.dbinstall.php|LINE:1079]
+**ERROR** Query size limit [length=1048576] [sql=...]
+[PHP ERR][NOTICE] MSG:Undefined variable: counter [CODE:8|FILE:C:\wamp64\www\zanondigital2020\ZanonDigital2020\dup-installer\ctrls\classes\class.ctrl.dbinstall.php|LINE:1079]
+**ERROR** Query size limit [length=1048576] [sql=...]
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+Starting Cleanup Routine...
+Cleanup Routine Complete
+ERRORS FOUND:	2
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	72
+
+TABLES ROWS
+
+TABLE "wp_commentmeta"__________________________________[ROWS:     0]
+TABLE "wp_comments"_____________________________________[ROWS:     1]
+TABLE "wp_db7_forms"____________________________________[ROWS:    19]
+TABLE "wp_duplicator_pro_entities"______________________[ROWS:     5]
+TABLE "wp_duplicator_pro_packages"______________________[ROWS:     0]
+TABLE "wp_fusion_form_entries"__________________________[ROWS:     0]
+TABLE "wp_fusion_form_fields"___________________________[ROWS:     0]
+TABLE "wp_fusion_form_submissions"______________________[ROWS:     0]
+TABLE "wp_fusion_forms"_________________________________[ROWS:     0]
+TABLE "wp_links"________________________________________[ROWS:     0]
+TABLE "wp_options"______________________________________[ROWS:   204]
+TABLE "wp_postmeta"_____________________________________[ROWS:   186]
+TABLE "wp_posts"________________________________________[ROWS:   158]
+TABLE "wp_revslider_css"________________________________[ROWS:   121]
+TABLE "wp_revslider_css_bkp"____________________________[ROWS:    47]
+TABLE "wp_revslider_layer_animations"___________________[ROWS:     0]
+TABLE "wp_revslider_layer_animations_bkp"_______________[ROWS:     0]
+TABLE "wp_revslider_navigations"________________________[ROWS:     0]
+TABLE "wp_revslider_navigations_bkp"____________________[ROWS:     0]
+TABLE "wp_revslider_sliders"____________________________[ROWS:     1]
+TABLE "wp_revslider_sliders_bkp"________________________[ROWS:     0]
+TABLE "wp_revslider_slides"_____________________________[ROWS:     1]
+TABLE "wp_revslider_slides_bkp"_________________________[ROWS:     0]
+TABLE "wp_revslider_static_slides"______________________[ROWS:     1]
+TABLE "wp_revslider_static_slides_bkp"__________________[ROWS:     0]
+TABLE "wp_smush_dir_images"_____________________________[ROWS:     0]
+TABLE "wp_term_relationships"___________________________[ROWS:     1]
+TABLE "wp_term_taxonomy"________________________________[ROWS:     1]
+TABLE "wp_termmeta"_____________________________________[ROWS:     4]
+TABLE "wp_terms"________________________________________[ROWS:     1]
+TABLE "wp_usermeta"_____________________________________[ROWS:    34]
+TABLE "wp_users"________________________________________[ROWS:     1]
+
+DATABASE CACHE/TRANSITIENT [ROWS:    72]
+
+INSERT DATA RUNTIME: 2.1293 sec.
+STEP-2 COMPLETE @ 06:40:44 - RUNTIME: 2.1297 sec.
+====================================
+NEXT STEP NOTICES
+====================================
+-----------------------
+[WARNING] QUERY ERROR: size limit
+
+====================================
+LOG-TIME[C:\wamp64\www\zanondigital2020\ZanonDigital2020\dup-installer\ctrls\ctrl.base.php:224][DELTA:   0.14200]  MESSAGE:END RENDER PAGE
+
+-------------------------
+AJAX ACTION sparam_s3
+
+-------------------------
+AJAX ACTION webupdate
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+CHUNK LOAD DATA: IS NULL 
+CHUNK ACTION: CURRENT [init][][]
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 06:40:54
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "Zanon Digital"
+url_old_______________: "https://zanondigital.com.br"
+url_new_______________: "http://localhost/zanondigital2020/ZanonDigital2020"
+siteurl_______________: "http://localhost/zanondigital2020/ZanonDigital2020"
+path_new______________: "C:/wamp64/www/zanondigital2020/ZanonDigital2020"
+path_old______________: "/home/zanondigital/www"
+replace_mode__________: "legacy"
+empty_schedule_storage: true
+mode_chunking_________: 2
+wp_username___________: ""
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+cross_search__________: true
+postguid______________: false
+fullsearch____________: false
+replaceMail___________: false
+maxSerializeStrlen____: 4000000
+auth_keys_and_salts___: false
+mu_replace____________: Array
+(
+)
+
+action_mu_mode________: -1
+DISALLOW_FILE_EDIT____: Array
+(
+    [value] => 
+    [inWpConfig] => 
+)
+
+AUTOSAVE_INTERVAL_____: Array
+(
+    [value] => 60
+    [inWpConfig] => 
+)
+
+WP_POST_REVISIONS_____: Array
+(
+    [value] => 9223372036854775807
+    [inWpConfig] => 
+)
+
+FORCE_SSL_ADMIN_______: Array
+(
+    [value] => 1
+    [inWpConfig] => 
+)
+
+WP_AUTO_UPDATE_CORE___: Array
+(
+    [value] => false
+    [inWpConfig] => 
+)
+
+WP_CACHE______________: Array
+(
+    [value] => 1
+    [inWpConfig] => 1
+)
+
+WPCACHEHOME___________: Array
+(
+    [value] => /
+    [inWpConfig] => 
+)
+
+WP_DEBUG______________: Array
+(
+    [value] => 
+    [inWpConfig] => 
+)
+
+WP_DEBUG_LOG__________: Array
+(
+    [value] => 
+    [inWpConfig] => 
+)
+
+WP_DEBUG_DISPLAY______: Array
+(
+    [value] => 1
+    [inWpConfig] => 
+)
+
+SCRIPT_DEBUG__________: Array
+(
+    [value] => 
+    [inWpConfig] => 
+)
+
+SAVEQUERIES___________: Array
+(
+    [value] => 
+    [inWpConfig] => 
+)
+
+COOKIE_DOMAIN_________: Array
+(
+    [value] => 
+    [inWpConfig] => 
+)
+
+WP_MEMORY_LIMIT_______: Array
+(
+    [value] => 134217728
+    [inWpConfig] => 
+)
+
+WP_MAX_MEMORY_LIMIT___: Array
+(
+    [value] => 134217728
+    [inWpConfig] => 
+)
+
+********************************************************************************
+
+********************************************************************************
+CHUNK PARAMS:
+maxIteration__________: 50
+timeOut_______________: 5000
+throttling____________: 2
+rowsPerPage___________: 1000
+********************************************************************************
+
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/zanondigital/www" ==========================> "C:/wamp64/www/zanondigital2020/ZanonDigital2020"
+	SEARCH[urlnd]  2:"https://zanondigital.com.br" =====================> "http://localhost/zanondigital2020/ZanonDigital2020"
+	CHUNK ACTION: CURRENT [search_replace][wp_comments][0]
+
+EVALUATE TABLE: "wp_db7_forms"____________________________________[ROWS:    19][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/zanondigital/www" ==========================> "C:/wamp64/www/zanondigital2020/ZanonDigital2020"
+	SEARCH[urlnd]  2:"https://zanondigital.com.br" =====================> "http://localhost/zanondigital2020/ZanonDigital2020"
+	CHUNK ACTION: CURRENT [search_replace][wp_db7_forms][0]
+
+EVALUATE TABLE: "wp_duplicator_pro_entities"______________________[ROWS:     5][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/zanondigital/www" ==========================> "C:/wamp64/www/zanondigital2020/ZanonDigital2020"
+	SEARCH[urlnd]  2:"https://zanondigital.com.br" =====================> "http://localhost/zanondigital2020/ZanonDigital2020"
+	CHUNK ACTION: CURRENT [search_replace][wp_duplicator_pro_entities][0]
+
+EVALUATE TABLE: "wp_duplicator_pro_packages"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_fusion_form_entries"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_fusion_form_fields"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_fusion_form_submissions"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_fusion_forms"_________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   204][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/zanondigital/www" ==========================> "C:/wamp64/www/zanondigital2020/ZanonDigital2020"
+	SEARCH[urlnd]  2:"https://zanondigital.com.br" =====================> "http://localhost/zanondigital2020/ZanonDigital2020"
+	CHUNK ACTION: CURRENT [search_replace][wp_options][0]
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:   186][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/zanondigital/www" ==========================> "C:/wamp64/www/zanondigital2020/ZanonDigital2020"
+	SEARCH[urlnd]  2:"https://zanondigital.com.br" =====================> "http://localhost/zanondigital2020/ZanonDigital2020"
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][0]
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:   158][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/zanondigital/www" ==========================> "C:/wamp64/www/zanondigital2020/ZanonDigital2020"
+	SEARCH[urlnd]  2:"https://zanondigital.com.br" =====================> "http://localhost/zanondigital2020/ZanonDigital2020"
+	CHUNK ACTION: CURRENT [search_replace][wp_posts][0]
+
+EVALUATE TABLE: "wp_revslider_css"________________________________[ROWS:   121][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/zanondigital/www" ==========================> "C:/wamp64/www/zanondigital2020/ZanonDigital2020"
+	SEARCH[urlnd]  2:"https://zanondigital.com.br" =====================> "http://localhost/zanondigital2020/ZanonDigital2020"
+	CHUNK ACTION: CURRENT [search_replace][wp_revslider_css][0]
+
+EVALUATE TABLE: "wp_revslider_css_bkp"____________________________[ROWS:    47][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/zanondigital/www" ==========================> "C:/wamp64/www/zanondigital2020/ZanonDigital2020"
+	SEARCH[urlnd]  2:"https://zanondigital.com.br" =====================> "http://localhost/zanondigital2020/ZanonDigital2020"
+	CHUNK ACTION: CURRENT [search_replace][wp_revslider_css_bkp][0]
+
+EVALUATE TABLE: "wp_revslider_layer_animations"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_layer_animations_bkp"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_navigations"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_navigations_bkp"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_sliders"____________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/zanondigital/www" ==========================> "C:/wamp64/www/zanondigital2020/ZanonDigital2020"
+	SEARCH[urlnd]  2:"https://zanondigital.com.br" =====================> "http://localhost/zanondigital2020/ZanonDigital2020"
+	CHUNK ACTION: CURRENT [search_replace][wp_revslider_sliders][0]
+
+EVALUATE TABLE: "wp_revslider_sliders_bkp"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_slides"_____________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/zanondigital/www" ==========================> "C:/wamp64/www/zanondigital2020/ZanonDigital2020"
+	SEARCH[urlnd]  2:"https://zanondigital.com.br" =====================> "http://localhost/zanondigital2020/ZanonDigital2020"
+	CHUNK ACTION: CURRENT [search_replace][wp_revslider_slides][0]
+
+EVALUATE TABLE: "wp_revslider_slides_bkp"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_static_slides"______________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/zanondigital/www" ==========================> "C:/wamp64/www/zanondigital2020/ZanonDigital2020"
+	SEARCH[urlnd]  2:"https://zanondigital.com.br" =====================> "http://localhost/zanondigital2020/ZanonDigital2020"
+	CHUNK ACTION: CURRENT [search_replace][wp_revslider_static_slides][0]
+
+EVALUATE TABLE: "wp_revslider_static_slides_bkp"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_smush_dir_images"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/zanondigital/www" ==========================> "C:/wamp64/www/zanondigital2020/ZanonDigital2020"
+	SEARCH[urlnd]  2:"https://zanondigital.com.br" =====================> "http://localhost/zanondigital2020/ZanonDigital2020"
+	CHUNK ACTION: CURRENT [search_replace][wp_term_relationships][0]
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/zanondigital/www" ==========================> "C:/wamp64/www/zanondigital2020/ZanonDigital2020"
+	SEARCH[urlnd]  2:"https://zanondigital.com.br" =====================> "http://localhost/zanondigital2020/ZanonDigital2020"
+	CHUNK ACTION: CURRENT [search_replace][wp_term_taxonomy][0]
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/zanondigital/www" ==========================> "C:/wamp64/www/zanondigital2020/ZanonDigital2020"
+	SEARCH[urlnd]  2:"https://zanondigital.com.br" =====================> "http://localhost/zanondigital2020/ZanonDigital2020"
+	CHUNK ACTION: CURRENT [search_replace][wp_termmeta][0]
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/zanondigital/www" ==========================> "C:/wamp64/www/zanondigital2020/ZanonDigital2020"
+	SEARCH[urlnd]  2:"https://zanondigital.com.br" =====================> "http://localhost/zanondigital2020/ZanonDigital2020"
+	CHUNK ACTION: CURRENT [search_replace][wp_terms][0]
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:    34][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/zanondigital/www" ==========================> "C:/wamp64/www/zanondigital2020/ZanonDigital2020"
+	SEARCH[urlnd]  2:"https://zanondigital.com.br" =====================> "http://localhost/zanondigital2020/ZanonDigital2020"
+	CHUNK ACTION: CURRENT [search_replace][wp_usermeta][0]
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/zanondigital/www" ==========================> "C:/wamp64/www/zanondigital2020/ZanonDigital2020"
+	SEARCH[urlnd]  2:"https://zanondigital.com.br" =====================> "http://localhost/zanondigital2020/ZanonDigital2020"
+	CHUNK ACTION: CURRENT [search_replace][wp_users][0]
+--------------------------------------
+SCANNED:	Tables:32 	|	 Rows:786 	|	 Cells:6500 
+UPDATED:	Tables:6 	|	 Rows:164 	|	 Cells:266 
+ERRORS:		0 
+RUNTIME:	1.344600 sec
+CHUNK ACTION: CURRENT [rem_maintenance][][]
+
+====================================
+REMOVE MAINTENANCE MODE
+====================================
+CHUNK ACTION: CURRENT [rem_licenze_key][][]
+
+====================================
+REMOVE LICENSE KEY
+====================================
+CHUNK ACTION: CURRENT [config_update][][]
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME ""zanondigital2020""
+	UPDATE DB_USER ""root""
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	WP CONFIG UPDATE WP_CACHE true
+	
+*** UPDATED WP CONFIG FILE ***
+CHUNK ACTION: CURRENT [htaccess_update][][]
+
+====================================
+HTACCESS UPDATE
+====================================
+
+WEB SERVER CONFIGURATION FILE UPDATED:
+- Preparing .htaccess file with basic setup.
+- Successfully updated the .htaccess file setting.
+CHUNK ACTION: CURRENT [gen_update][][]
+
+====================================
+GENERAL UPDATES
+====================================
+
+====================================
+MANAGE PLUGINS
+====================================
+Activated plugins listed here will be deactivated: Array
+(
+)
+
+CHUNK ACTION: CURRENT [gen_clean][][]
+
+====================================
+GENERAL CLEANUP
+====================================
+- Removed '0' schedule storage items
+CHUNK ACTION: CURRENT [create_admin][][]
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+CHUNK ACTION: CURRENT [notice_test][][]
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+CHUNK ACTION: CURRENT [cleanup_tmp_files][][]
+
+====================================
+CLEANUP TMP FILES
+====================================
+CHUNK ACTION: CURRENT [final_report][][]
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 06:40:56 - RUNTIME: 1.6860 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[WARNING] DB EXTRACTION - INSTALL NOTICES (2)
+	SECTIONS: database
+	LONG MSG: Queries that error during the deploy step are logged to the         <a class="dup-ligthbox-link" data-dup-ligthbox="dup-html-id-6-1617216056-6032" >installer-log.txt</a>
+        <div id="dup-html-id-6-1617216056-6032" class="dub-ligthbox-content close">
+            <div class="wrapper" >
+                <h2 class="title" >installer-log.txt</h2>
+                <div class="content" ><iframe class="dup-lightbox-iframe" data-iframe-url="http://localhost/zanondigital2020/ZanonDigital2020/dup-installer/dup-installer-log__60fbf14-31180048.txt?now=184056"></iframe> </div><div class="tool-box"><button class="button toggle-auto-update disabled" title="Enable auto reload" ><i class="fa fa-2x fa-redo-alt"></i></button><a target="_blank" class="button download-button" title="Download" download="dup-installer-log__60fbf14-31180048.txt" href="http://localhost/zanondigital2020/ZanonDigital2020/dup-installer/dup-installer-log__60fbf14-31180048.txt?now=184056" onclick="function () { event.preventDefault(); return false;}" ><i class="fa fa-2x fa-download"></i></a></div>                <button class="close-button" title="Close" ><i class="fa fa-2x fa-times"></i></button>
+            </div>
+        </div>
+        file and
+and marked with an **ERROR** status.   If you experience a few errors (under 5), in many cases they can be ignored as long as your site is working correctly.
+However if you see a large amount of errors or you experience an issue with your site then the error messages in the log file will need to be investigated.
+<br/><br/>
+
+<b>COMMON FIXES:</b>
+<ul>
+    <li>
+        <b>Unknown collation:</b> See Online FAQ:
+        <a href="https://snapcreek.com/duplicator/docs/faqs-tech/#faq-trouble-090-q" target="_blank">What is Compatibility mode & 'Unknown collation' errors?</a>
+    </li>
+    <li>
+        <b>Query Limits:</b> Update MySQL server with the <a href="https://dev.mysql.com/doc/refman/5.5/en/packet-too-large.html" target="_blank">max_allowed_packet</a>
+        setting for larger payloads.
+    </li>
+</ul>
+
+-----------------------
+[WARNING] Some errors in the database (3)
+	SECTIONS: database
+
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+-----------------------
+[WARNING] QUERY ERROR: size limit
+	SECTIONS: database
+	LONG MSG: **ERROR** Query size limit [length=1048576] [sql=...]
+
+-----------------------
+[WARNING] QUERY ERROR: size limit
+	SECTIONS: database
+	LONG MSG: **ERROR** Query size limit [length=1048576] [sql=...]
+
+-----------------------
+[WARNING] Deactivated plugin: Really Simple SSL
+	SECTIONS: plugins
+	LONG MSG: This plugin is deactivated because you are migrating from SSL (HTTPS) to Non-SSL (HTTP).<br>If it was not deactivated, you would not able to login.
+
+====================================
+LOG-TIME[C:\wamp64\www\zanondigital2020\ZanonDigital2020\dup-installer\ctrls\ctrl.base.php:224][DELTA:   0.10727]  MESSAGE:END RENDER PAGE
