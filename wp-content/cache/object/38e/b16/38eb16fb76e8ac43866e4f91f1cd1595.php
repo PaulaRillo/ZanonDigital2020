@@ -1,4 +1,4 @@
-„Ãd`<?php exit; ?>a:1:{s:7:"content";a:8:{s:5:"_form";a:1:{i:0;s:374:"<label> Seu nome *
+'œd`<?php exit; ?>a:1:{s:7:"content";a:8:{s:5:"_form";a:1:{i:0;s:374:"<label> Seu nome *
     [text* your-name] </label>
 
 <label> Seu melhor e-mail *

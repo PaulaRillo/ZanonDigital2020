@@ -1,1 +1,1 @@
-óÌd`<?php exit; ?>a:1:{s:7:"content";a:2:{s:7:"_fusion";a:1:{i:0;s:6:"a:0:{}";}s:22:"avada_post_views_count";a:1:{i:0;s:1:"0";}}}
+)Ïd`<?php exit; ?>a:1:{s:7:"content";a:2:{s:7:"_fusion";a:1:{i:0;s:6:"a:0:{}";}s:22:"avada_post_views_count";a:1:{i:0;s:1:"0";}}}
