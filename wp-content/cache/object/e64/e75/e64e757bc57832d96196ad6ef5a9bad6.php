@@ -1,4 +1,4 @@
-Âf`<?php exit; ?>a:1:{s:7:"content";s:13305:"/* cyrillic-ext */
+×f`<?php exit; ?>a:1:{s:7:"content";s:13305:"/* cyrillic-ext */
 @font-face {
   font-family: 'Open Sans';
   font-style: italic;
